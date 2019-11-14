@@ -1,7 +1,9 @@
 Edit these files:
 
-1.IdlerConfig.js
+1.Download NodeJs
 
-2.StartIdle.cmd
+2.IdlerConfig.js
+
+3.StartIdle.cmd
 
 After you come in StartIdle.cmd
