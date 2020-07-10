@@ -20,5 +20,5 @@
 		bot.doLogin();
 		botArray.push(bot);
     }
-     
     console.log('Running ' + botArray.length + ' bots.');
+    console.clear()
