@@ -67,19 +67,6 @@ botFactory.buildBot = function (config)
 	
 	bot.on('accountLimitations', function(limited, communityBanned, locked, canInviteFriends) {
 		var limitations = [];
- 
-		if(limited) {
-			limitations.push('LIMITED');
-		}
- 
-		if(communityBanned) {
-			limitations.push('COMMUNITY BANNED');
-		}
- 
-		if(locked) {
-			limitations.push('LOCKED');
-		}
- 
 		if(limitations.length !== 0) {
 			console.log("[" + this.username + "] Limitations: " + limitations.join(', ') + ".");
 		}
