@@ -2,7 +2,7 @@ Edit these files:
 
 1.Download NodeJs
 
-2.IdlerConfig.js
+2.boost.js
 
 3.StartIdle.cmd
 
