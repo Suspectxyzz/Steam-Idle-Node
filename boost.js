@@ -3,14 +3,22 @@
     var config;
     var botArray = [];
     
+//account 1
     config = {};
     config.username = 'USER';
     config.password = 'PASSWORD';
     config.sharedSecret = ''; //Shared Secret(for 2FA only) https://github.com/Jessecar96/SteamDesktopAuthenticator/releases
     config.games = [730]
     configsArray.push(config);
-	
-	
+// account 2
+    config = {};
+    config.username = 'USER';
+    config.password = 'PASSWORD';
+    config.sharedSecret = ''; //Shared Secret(for 2FA only) https://github.com/Jessecar96/SteamDesktopAuthenticator/releases
+    config.games = [730]
+    configsArray.push(config);
+//
+
     console.log('Number of configurations set up: ' + configsArray.length);
      
     for	(index = 0; index < configsArray.length; index++) {
