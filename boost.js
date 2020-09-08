@@ -1,4 +1,4 @@
- var steamClientFactory = require('./steamClient.js');
+    var steamClientFactory = require('./steamClient.js');
     var configsArray = [];
     var config;
     var botArray = [];
@@ -10,6 +10,7 @@
     config.sharedSecret = ''; //Shared Secret(for 2FA only) https://github.com/Jessecar96/SteamDesktopAuthenticator/releases
     config.games = [730]
     configsArray.push(config);
+
 // account 2
     config = {};
     config.username = 'USER';
@@ -17,7 +18,8 @@
     config.sharedSecret = ''; //Shared Secret(for 2FA only) https://github.com/Jessecar96/SteamDesktopAuthenticator/releases
     config.games = [730]
     configsArray.push(config);
-//
+
+// you can add more down
 
     console.log('Number of configurations set up: ' + configsArray.length);
      
