@@ -20,3 +20,5 @@
     -  `steamClient.js` you can modify **Custom Away Message**:
      - > Line 55, you can add more if you delete `//`
    -   To run you have to open  `StartIdle.cmd`
+   
+    ####   If it doesn't work with `npm install` use `npm update`.
