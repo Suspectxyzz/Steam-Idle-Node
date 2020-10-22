@@ -1,10 +1,10 @@
 {
-  "name": "ez-steam-idler",
+  "name": "Steam-Idle-Node",
   "version": "1.0.0",
   "dependencies": {
-    "steam": "^1.4.0",
-    "steam-user": "^3.14.0",
-    "steam-totp": "^1.4.0",
-    "readline-sync": "^1.4.5"
+    "steam": "^1.4.1",
+    "steam-user": "^4.12.5",
+    "steam-totp": "^2.1.1",
+    "readline-sync": "^1.4.10"
   }
 }
