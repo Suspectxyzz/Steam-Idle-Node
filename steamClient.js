@@ -57,22 +57,6 @@ botFactory.buildBot = function (config)
 			this.messageReceived[steamID] = true;
 		}
 	});
-	
-	
-	bot.on('vacBans', function(numBans, appids) {
-		if(numBans > 0) {
-			console.log( "[" + this.username + "] " + numBans + " VAC ban" + (numBans == 1 ? '' : 's') + "." + 
-						(appids.length == 0 ? '' : " In apps: " + appids.join(', ')) );
-		}
-	});
-	
-	bot.on('accountLimitations', function(limited, communityBanned, locked, canInviteFriends) {
-		var limitations = [];
-		if(limitations.length !== 0) {
-			console.log("[" + this.username + "] Limitations: " + limitations.join(', ') + ".");
-		}
-	});
-	
 	return bot;
 }
  
