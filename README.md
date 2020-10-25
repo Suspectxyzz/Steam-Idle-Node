@@ -5,6 +5,7 @@
 - ## Requirements
    - [NodeJS v12](https://nodejs.org/dist/v12.9.1/win-x64/)
    * [Notepad++](https://notepad-plus-plus.org/downloads/)
+   * [Git](https://git-scm.com/download/win)
    
    
 - ## Installation :
