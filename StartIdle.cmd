@@ -1,4 +1,7 @@
+@echo off 
+MODE 50,15
+Title Steam Idle Node By Suspectxyz
+color 5 
 cd D:\Steam Idle
-mode con:cols=50 lines=15
 node boost.js
 pause
