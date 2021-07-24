@@ -16,9 +16,9 @@
      
    ## Notes :
   - ## If you open
-    - `steamClient.js` `21`  **You can set status for your steam accounts: offline or online**.
-    - `steamClient.js` `27`  **Relogin Timeout(30 minutes)**    
-    -  `steamClient.js` you can modify **Custom Away Message**:
+    - `client.js` `21`  **You can set status for your steam accounts: offline or online**.
+    - `client.js` `27`  **Relogin Timeout(30 minutes)**    
+    -  `client.js` you can modify **Custom Away Message**:
      - > Line 55, you can add more if you delete `//`
    -   To run you have to open  `StartIdle.cmd`
    
