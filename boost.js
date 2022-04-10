@@ -1,4 +1,4 @@
-    var steamClientFactory = require('./Client.js');
+    var steamClientFactory = require('./client.js');
     var configsArray = [];
     var config;
     var botArray = [];
